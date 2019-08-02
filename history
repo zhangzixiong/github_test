@@ -1,0 +1,1000 @@
+  280  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-15.gz 
+  281  make
+  282  ls
+  283  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-16.gz nroot@172.0.1.13:/fdsk
+  284  vi /home/zzx/.ssh/known_hosts
+  285  c
+  286  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-16.gz nroot@172.0.1.13:/fdsk
+  287  man 3 fwrite
+  288  ls
+  289  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-16.gz 
+  290  make
+  291  ls
+  292  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-17.gz nroot@172.0.1.13:/fdsk
+  293  vi /home/zzx/.ssh/known_hosts
+  294  c
+  295  ls
+  296  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-17.gz nroot@172.0.1.13:/fdsk
+  297  ifconfig 
+  298  ls
+  299  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-17.gz 
+  300  ls
+  301  make
+  302  cd ../../..
+  303  ls
+  304  make roltcp
+  305  cd casa/build/rolt-cavm/
+  306  ls
+  307  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-18.gz nroot@172.0.1.13:/fdsk
+  308  cd ../../..
+  309  ls
+  310  make roltcp
+  311  accurev stat -m
+  312  accurev diff -b ./casa/mgmt/CLI/cli_remote_control.c
+  313  accurev stat -m
+  314  accurev diff -b ./casa/mgmt/CLI/cli_remote_control.h
+  315  accurev diff -b ./casa/mgmt/CLI/rolt_callback.c
+  316  accurev stat -m
+  317  accurev update
+  318  accurev purge ./casa/mgmt/CLI/cli_remote_control.c ./casa/mgmt/CLI/cli_remote_control.h ./casa/mgmt/CLI/rolt_callback.c
+  319  accurev update
+  320  make roltcp
+  321  cd casa/build/rolt-cavm/
+  322  ls 
+  323  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-18.gz -f
+  324  ls -l
+  325  make
+  326  ls
+  327  cd ..
+  328  ls
+  329  cd ../..
+  330  ls
+  331  rm zzx111 zzxx zzx -f
+  332  ls -l
+  333  rm zzx.new 
+  334  ls -l
+  335  rm aaaaaaa 
+  336  vi aaaaaaa.c 
+  337  c
+  338  ls
+  339  rm aaaaaaa.c -f
+  340  ls -l
+  341  accurev annotate ./dcts/dpoe/oltmgr/oltmgr_node.c | less
+  342  accurev annotate ./dcts/dpoe/oltmgr/oltmgr_http_proc.c 
+  343  accurev annotate ./dcts/dpoe/oltmgr/oltmgr_http_proc.c | less
+  344  accurev stat -m
+  345  accurev diff -b ./dcts/dpoe/oltmgr/oltmgr_node.c
+  346  make roltcp
+  347  ls
+  348  cd casa/build/rolt-cavm/
+  349  ls
+  350  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-19.gz 
+  351  make
+  352  ls
+  353  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-20.gz nroot@172.0.1.13:/fdsk
+  354  vi /home/zzx/.ssh/known_hosts
+  355  c
+  356  ls
+  357  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-20.gz nroot@172.0.1.13:/fdsk
+  358  cd ../../..
+  359  ls
+  360  make roltcp
+  361  cd casa/build/rolt-cavm/
+  362  ls 
+  363  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-20.gz -f
+  364  make
+  365  ls
+  366  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-21.gz nroot@10.89.0.15
+  367  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-21.gz nroot@10.89.0.15:/fdsk
+  368  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-21.gz nroot@172.0.1.13:/fdsk
+  369  vi /home/zzx/.ssh/known_hosts
+  370  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-21.gz nroot@172.0.1.13:/fdsk
+  371  ls
+  372  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-21.gz -f
+  373  make
+  374  ls
+  375  rm nroot@10.89.0.15  nroot@172.0.1.13 -f
+  376  ls -l
+  377  ls
+  378  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-22.gz nroot@172.0.1.13:/fdsk
+  379  vi /home/zzx/.ssh/known_hosts
+  380  c
+  381  ls
+  382  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-22.gz nroot@172.0.1.13:/fdsk
+  383  cd ../../..
+  384  ls
+  385  accurev stat -m
+  386  accurev diff -b ./dcts/dpoe/oltmgr/oltmgr_daemon.c
+  387  accurev diff -b ./dcts/dpoe/oltmgr/oltmgr_node.c
+  388  ls
+  389  accurev keep ./dcts/dpoe/rolt/rpc/client/rolt_rpc_client.c ./dcts/dpoe/rolt/rpc/include/rolt_rpc_client.h ./dcts/dpoe/rolt/rpc/include/rolt_rpc_mtypes.h ./dcts/dpoe/rolt/rpc/server/rolt_rpc_server.c ./dcts/dpoe/rolt/include/rolt_cfg.h ./dcts/dpoe/rolt/rolt_cfg.c -c "Bug 116049 - B@CASA ROLT: Add CLI command to display and remove files on remote olt node /fsdk"
+  390  accurev keep ./casa/mgmt/CLI/rolt_callback.c ./casa/mgmt/CLI/cmd/rolt.cmd ./casa/mgmt/CLI/cli_remote_cmd.c ./casa/mgmt/common/include/cli_remote_cmd.h -c "Bug 116049 - B@CASA ROLT: Add CLI command to display and remove files on remote olt node /fsdk"
+  391  accurev stat -k
+  392  accurev cpkadd -k -I 116049
+  393  accurev stat -k
+  394  accurev login
+  395  accurev stat -k
+  396  accurev stat -m
+  397  accurev login
+  398  accurev stat -k
+  399  accurev stat -m
+  400  make roltcp
+  401  cd casa/build/rolt-cavm/
+  402  ls
+  403  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-22.gz -f
+  404  make
+  405  ls
+  406  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-23.gz nroot@172.0.1.13:/fdsk
+  407  vi /home/zzx/.ssh/known_hosts
+  408  c
+  409  ls
+  410  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-23.gz nroot@172.0.1.13:/fdsk
+  411  cd ../../..
+  412  ls
+  413  accurev stat -m
+  414  accurev stat -k
+  415  make roltcp
+  416  cd casa/build/rolt-cavm/
+  417  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-23.gz -f
+  418  make
+  419  ls -l
+  420  ls
+  421  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-24.gz nroot@172.0.1.13:/fdsk
+  422  vi /home/zzx/.ssh/known_hosts
+  423  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-24.gz nroot@172.0.1.13:/fdsk
+  424  c
+  425  ls
+  426  cd ../../..
+  427  make roltcp
+  428  c casa/build/cots/
+  429  ls
+  430  cd casa/build/cots/
+  431  ls -l
+  432  cd packages/
+  433  ls
+  434  cd ../../..
+  435  cd ..
+  436  ls
+  437  make roltcp
+  438  cd casa/build/rolt-cavm/
+  439  ls -l
+  440  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-24.gz -f
+  441  make
+  442  ls
+  443  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-25.gz nroot@172.0.1.13:/fdsk
+  444  vi /home/zzx/.ssh/known_hosts
+  445  c
+  446  ls
+  447  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-25.gz nroot@172.0.1.13:/fdsk
+  448  cd ../../..
+  449  ls
+  450  accurev stat -k
+  451  accurev diff -b ./casa/mgmt/CLI/cmd/rolt.cmd
+  452  accurev diff -b ./casa/mgmt/common/include/cli_remote_cmd.h
+  453  accurev diff -b ./dcts/dpoe/rolt/include/rolt_cfg.h
+  454  accurev purge ./dcts/dpoe/rolt/include/rolt_cfg.h
+  455  accurev stat -k
+  456  accurev diff -b ./dcts/dpoe/rolt/rpc/include/rolt_rpc_mtypes.h
+  457  accurev purge ./dcts/dpoe/rolt/rpc/include/rolt_rpc_mtypes.h
+  458  accurev stat -m
+  459  accurev diff ./dcts/dpoe/oltmgr/oltmgr_daemon.c 
+  460  accurev diff ./dcts/dpoe/rolt/rpc/client/rolt_rpc_client.c
+  461  accurev purge ./dcts/dpoe/rolt/rpc/client/rolt_rpc_client.c
+  462  accurev diff ./dcts/dpoe/rolt/rpc/include/rolt_rpc_client.h
+  463  accurev purge ./dcts/dpoe/rolt/rpc/include/rolt_rpc_client.h
+  464  accurev diff ./dcts/dpoe/rolt/rpc/server/rolt_rpc_server.c
+  465  accurev purge ./dcts/dpoe/rolt/rpc/server/rolt_rpc_server.c
+  466  accurev diff ./dcts/dpoe/rolt/rolt_cfg.c
+  467  accurev diff ./casa/mgmt/CLI/rolt_callback.c
+  468  accurev stat -m
+  469  accurev keep ./dcts/dpoe/rolt/rolt_cfg.c ./casa/mgmt/CLI/rolt_callback.c ./casa/mgmt/CLI/cli_remote_cmd.c -c "Bug 116049 - B@CASA ROLT: Add CLI command to display and remove files on remote olt node /fsdk/"
+  470  accurev stat -k
+  471  accurev cpkadd -k -I 116049
+  472  accurev stat -m
+  473  cd casa/build/rolt-cavm/
+  474  make
+  475  cd ../../..
+  476  ls -l
+  477  ls
+  478  make roltcp
+  479  accurev stat -m
+  480  accurev stat -k
+  481  cd casa/build/rolt-cavm/
+  482  ls -l
+  483  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-26.gz -f
+  484  ls -l
+  485  make
+  486  ls -l
+  487  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-27.gz nroot@172.0.1.13:/fdsk
+  488  vi /home/zzx/.ssh/known_hosts
+  489  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-27.gz nroot@172.0.1.13:/fdsk
+  490  c
+  491  ls
+  492  accurev login
+  493  accurev stat -m
+  494  accurev stat -k
+  495  cd ../../..
+  496  accurev keep ./dcts/dpoe/oltmgr/oltmgr_daemon.c -c "Bug 115963 - B@CASA ROLT: Add host entry for ROLT on the CP"
+  497  accurev keep ./dcts/dpoe/oltmgr/oltmgr_node.c "Bug 115963 - B@CASA ROLT: Add host entry for ROLT on the CP"
+  498  c
+  499  ls
+  500  accurev keep ./dcts/dpoe/oltmgr/oltmgr_node.c -c "Bug 115963 - B@CASA ROLT: Add host entry for ROLT on the CP"
+  501  accurev keep -k
+  502  accurev stat -k
+  503  accurev cpkadd ./dcts/dpoe/oltmgr/oltmgr_daemon.c ./dcts/dpoe/oltmgr/oltmgr_node.c -I 116049
+  504  vi casa/mgmt/CLI/cmd/rolt.cmd 
+  505  accurev stat -m
+  506  accurev keep ./casa/mgmt/CLI/cmd/rolt.cmd -c "Bug 116049 - B@CASA ROLT: Add CLI command to display and remove files on remote olt node /fsdk"
+  507  accurev cpkadd ./casa/mgmt/CLI/cmd/rolt.cmd -I 116049
+  508  accurev stat -m
+  509  accurev stat -k
+  510  cd dcts/dpoe/
+  511  grep "evhttp_request"
+  512  cd ..
+  513  c
+  514  ls
+  515  accurev stat -m
+  516  accurev diff -b ./dcts/dpoe/oltmgr/include/oltmgr_node.h
+  517  accurev diff -b ./dcts/dpoe/oltmgr/oltmgr_node.c
+  518  accurev diff -b ./dcts/dpoe/rolt/rolt_cfg.c
+  519  accurev stat -k
+  520  accurev stat -m
+  521  accurev keep ./dcts/dpoe/oltmgr/include/oltmgr_node.h "Bug 115963 - B@CASA ROLT: Add host entry for ROLT on the CP"
+  522  accurev keep ./dcts/dpoe/oltmgr/include/oltmgr_node.h -c "Bug 115963 - B@CASA ROLT: Add host entry for ROLT on the CP"
+  523  accurev keep ./dcts/dpoe/oltmgr/oltmgr_node.c -c "Bug 116049 - B@CASA ROLT: Add CLI command to display and remove files on remote olt node /fsdk"
+  524  accurev keep ./dcts/dpoe/rolt/rolt_cfg.c -c "Bug 116049 - B@CASA ROLT: Add CLI command to display and remove files on remote olt node /fsdk"
+  525  accurev stat -k
+  526  accurev cpkadd ./dcts/dpoe/oltmgr/include/oltmgr_node.h ./dcts/dpoe/oltmgr/oltmgr_node.c ./dcts/dpoe/rolt/rolt_cfg.c -I 116049
+  527  make roltcp
+  528  cd casa/build/rolt-cavm/
+  529  ls -l
+  530  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-27.gz -f
+  531  make
+  532  ls
+  533  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-28.gz nroot@172.0.1.
+  534  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-28.gz nroot@172.0.1.13:/fdsk
+  535  vi /home/zzx/.ssh/known_hosts
+  536  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-28.gz nroot@172.0.1.13:/fdsk
+  537  ls
+  538  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-28.gz -f
+  539  make
+  540  cd ../../..
+  541  make roltcp
+  542  accurev stat -m
+  543  accurev stat -k
+  544  accurev keep ./casa/mgmt/CLI/rolt_callback.c -c "Bug 116049 - B@CASA ROLT: Add CLI command to display and remove files on remote olt node /fsdk"
+  545  accurev cpkadd ./casa/mgmt/CLI/rolt_callback.c -I 116049
+  546  accurev stat -k
+  547  accurev promote ./casa/mgmt/CLI/cli_remote_cmd.c ./casa/mgmt/CLI/cmd/rolt.cmd ./casa/mgmt/CLI/rolt_callback.c ./casa/mgmt/common/include/cli_remote_cmd.h ./dcts/dpoe/oltmgr/include/oltmgr_node.h ./dcts/dpoe/oltmgr/oltmgr_daemon.c ./dcts/dpoe/oltmgr/oltmgr_node.c ./dcts/dpoe/rolt/rolt_cfg.c -c "Bug 116049 - B@CASA ROLT: Add CLI command to display and remove files on remote olt node /fsdk" -I 116049
+  548  accurev stat -k
+  549  accurev stat -m
+  550  find -name "repower.sh"
+  551  ls -l
+  552  ls casa/arch/board/common/lc/util/ -l
+  553  vi Makefile 
+  554  ls casa/arch/board/common/lc/util/ -l
+  555  cat  casa/arch/board/common/lc/util/Makefile 
+  556  ls
+  557  find -name "shutdown"
+  558  grep -rn "shutdown"
+  559  ls
+  560  cd casa/
+  561  grep -rn "shutdown"
+  562  cd ..
+  563  c
+  564  lw
+  565  ls
+  566  find -name "cmd"
+  567  cd ./casa/mgmt/CLI
+  568  ls -l
+  569  cd ..
+  570  ls
+  571  cd CLI/
+  572  ls
+  573  cd cmd
+  574  ls
+  575  grep -rn "shutdown"
+  576  pwd
+  577  history
+  578  history | grep copy
+  579  history | grep 
+  580  history | grep "copy"
+  581  pwd
+  582  cd ..
+  583  cd ../..
+  584  ls
+  585  cd ..
+  586  ls
+  587  cd debug/
+  588  ls
+  589  pwd
+  590  ls 
+  591  gdbcav -c core.rolt-bcm_user_appl-324-6-1563950539 ../sdk/systems/linux/user/dpoe_arm64/bcm.user.dbg
+  592  grep -rn "bcm.user"
+  593  cd ..
+  594  ls
+  595  grep -rn "bcm.user"
+  596  find -name "bcm.user"
+  597  cd debug/
+  598  gdbcav ./sdk/systems/linux/user/rolt_arm64/bcm.user -c core.rolt-bcm_user_appl-324-6-1563950539
+  599  gdbcav ../sdk/systems/linux/user/rolt_arm64/bcm.user.dbg -c core.rolt-bcm_user_appl-324-6-1563950539
+  600  gdbcav ../sdk/systems/linux/user/rolt_arm64/bcm.user -c core.rolt-bcm_user_appl-324-6-1563950539
+  601  cd ..
+  602  ls
+  603  cd casa/
+  604  ls
+  605  grep -rn "OltmgrInfoGetRsp"
+  606  vi ipc/ipcdef/msg_oltmgr.proto +46
+  607  c
+  608  ls
+  609  cd ..
+  610  grep -rn "OltmgrInfoGetRsp"
+  611  cd debug/
+  612  ls 
+  613  c
+  614  cd ..
+  615  ls
+  616  accurev login
+  617  accurev stat -m
+  618  accurev diff -b ./casa/mgmt/CLI/cmd/rolt.cmd
+  619  accurev purge ./casa/mgmt/CLI/cmd/rolt.cmd
+  620  accurev diff -b ./casa/mgmt/CLI/rolt_callback.c
+  621  accurev purge ./casa/mgmt/CLI/rolt_callback.c
+  622  make roltcp
+  623  cd casa/build/rolt-cavm/
+  624  ls -l
+  625  make
+  626  cd ../../..
+  627  accurev stat -m
+  628  accurev diff -b ./casa/mgmt/config/cfg_callbacks/rolt_cfg.c
+  629  accurev diff -b ./dcts/dpoe/rolt/rolt_cfg.c
+  630  cd casa/build/rolt-cavm/
+  631  make
+  632  ls
+  633  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-29.gz nroot@172.0.1.13:/fdsk
+  634  vi /home/zzx/.ssh/known_hosts
+  635  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-29.gz nroot@172.0.1.13:/fdsk
+  636  cd ../../..
+  637  ls -l
+  638  pwd
+  639  cd debug/
+  640  ls -l
+  641  ls
+  642  rm core.rolt-bcm_user_appl-324-6-1563950539 -f
+  643  gunzip core.rolt-rolt_daemon-761-11-1564040029.gz
+  644  ls
+  645  gdbcav core.rolt-rolt_daemon-761-11-1564040029
+  646  gdbcav -c core.rolt-rolt_daemon-761-11-1564040029 ../sdk/systems/linux/user/dpoe_arm64/bcm.user.dbg
+  647  which rolt_daemon
+  648  cd ..
+  649  find -name "rolt_daemon"
+  650  cd debug/
+  651  gdbcav -c core.rolt-rolt_daemon-761-11-1564040029 ./cavm-arm64/dcts/dpoe/rolt/bin/TARGET_LC64/rolt_daemon
+  652  cd ../
+  653  cd casa/build/rolt-cavm/
+  654  make
+  655  cd ../../..
+  656  make roltcp
+  657  cd casa/build/rolt-cavm/
+  658  ls
+  659  rm nroot@172.0.1.
+  660  ls
+  661  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-30.gz nroot@172.0.1.13:/fdsk
+  662  vi /home/zzx/.ssh/known_hosts 
+  663  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-30.gz nroot@172.0.1.13:/fdsk
+  664  man 3 fopen
+  665  man 3 sprintf
+  666  man 3 seof
+  667  man 3 feof
+  668  q
+  669  cd ../../..
+  670  ls
+  671  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  672  vi qaz.c 
+  673  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  674  vi qaz.c 
+  675  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  676  scp qaz nroot@172.0.1.13:/fdsk
+  677  vi /home/zzx/.ssh/known_hosts
+  678  scp qaz nroot@172.0.1.13:/fdsk
+  679  c
+  680  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  681  scp qaz nroot@172.0.1.13:/fdsk
+  682  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  683  ls- l
+  684  ls -l
+  685  date
+  686  scp qaz nroot@172.0.1.13:/fdsk
+  687  vi /home/zzx/.ssh/known_hosts
+  688  scp qaz nroot@172.0.1.13:/fdsk
+  689  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  690  scp qaz nroot@172.0.1.13:/fdsk
+  691  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  692  scp qaz nroot@172.0.1.13:/fdsk
+  693  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  694  scp qaz nroot@172.0.1.13:/fdsk
+  695  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  696  scp qaz nroot@172.0.1.13:/fdsk
+  697  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  698  scp qaz nroot@172.0.1.13:/fdsk
+  699  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  700  scp qaz nroot@172.0.1.13:/fdsk
+  701  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  702  scp qaz nroot@172.0.1.13:/fdsk
+  703  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  704  scp qaz nroot@172.0.1.13:/fdsk
+  705  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  706  scp qaz nroot@172.0.1.13:/fdsk
+  707  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  708  scp qaz nroot@172.0.1.13:/fdsk
+  709  vi /home/zzx/.ssh/known_hosts
+  710  scp qaz nroot@172.0.1.13:/fdsk
+  711  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  712  scp qaz nroot@172.0.1.13:/fdsk
+  713  /opt/cavium/tools/bin/aarch64-thunderx-linux-gnu-gcc qaz.c -o qaz
+  714  scp qaz nroot@172.0.1.13:/fdsk
+  715  accurev stat -m
+  716  accurev diff -b ./dcts/dpoe/rolt/rolt_cfg.c
+  717  accurev purge ./dcts/dpoe/rolt/rolt_cfg.c
+  718  make roltcp
+  719  cd casa/build/rolt-cavm/
+  720  ls -l
+  721  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-30.gz -f
+  722  make
+  723  ls -l
+  724  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-31.gz nroot@172.0.1.13:/fdsk
+  725  cd ../../..
+  726  ls
+  727  accurev stat -m
+  728  accurev diff -b ./dcts/dpoe/rolt/rpc/include/rolt_rpc_msg.h
+  729  man 3 ctime_r
+  730  c
+  731  ls
+  732  make roltcp
+  733  cd casa/build/rolt-cavm/
+  734  ls -l
+  735  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-31.gz -f
+  736  make
+  737  man 3 stat
+  738  make
+  739  ls -l
+  740  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-32.gz nroot@172.0.1.13:/fdsk
+  741  vi /home/zzx/.ssh/known_hosts
+  742  c
+  743  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-32.gz nroot@172.0.1.13:/fdsk
+  744  cd ../../..
+  745  make roltcp
+  746  accurev stat -m
+  747  accurev diff -b ./dcts/dpoe/rolt/rolt_cfg.c
+  748  c
+  749  cd casa/build/rolt-cavm/
+  750  ls -l
+  751  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-32.gz -f
+  752  make
+  753  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-33.gz nroot@172.0.1.13:/fdsk
+  754  vi /home/zzx/.ssh/known_hosts
+  755  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-33.gz nroot@172.0.1.13:/fdsk
+  756  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-33.gz -f
+  757  make
+  758  ls
+  759  scp roltnode-11.0.0.0-7791.zzx_ROLT-34.gz nroot@172.0.1.13:/fdsk
+  760  vi /home/zzx/.ssh/known_hosts
+  761  c
+  762  ls
+  763  scp roltnode-11.0.0.0-7791.zzx_ROLT-34.gz nroot@172.0.1.13:/fdsk
+  764  ls -l
+  765  cd ../../..
+  766  make roltcp
+  767  ls -l
+  768  cd casa/build/rolt-cavm/
+  769  ls -l
+  770  rm roltnode-11.0.0.0-7791.zzx_ROLT-34.gz 
+  771  make
+  772  ls -l
+  773  scp roltnode-11.0.0.0-7791.zzx_ROLT-35.gz nroot@172.0.1.13:/fdsk
+  774  cd ../../..
+  775  make roltcp
+  776  cd casa/build/rolt-cavm/
+  777  ls -l
+  778  scp roltnode-11.0.0.0-7791.zzx_ROLT-35.gz nroot@172.0.1.13:/fdsk
+  779  vi /home/zzx/.ssh/known_hosts
+  780  scp roltnode-11.0.0.0-7791.zzx_ROLT-35.gz nroot@172.0.1.13:/fdsk
+  781  cd ../../..
+  782  ls -l
+  783  accurev login
+  784  accurev stat -m
+  785  accurev diff -b ./dcts/dpoe/rolt/rolt_cfg.c
+  786  make roltcp
+  787  cd casa/build/rolt-cavm/
+  788  rm roltnode-11.0.0.0-7791.zzx_ROLT-35.gz -f
+  789  make
+  790  ls
+  791  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-36.gz nroot@172.0.1.13:/fdsk
+  792  cd ../../..
+  793  make roltcp
+  794  cd casa/build/rolt-cavm/
+  795  ls -l
+  796  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-36.gz nroot@172.0.1.13:/fdsk
+  797  vi /home/zzx/.ssh/known_hosts
+  798  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-36.gz nroot@172.0.1.13:/fdsk
+  799  cd ../../..
+  800  accurev stat -m
+  801  accurev diff -b ./dcts/dpoe/rolt/rpc/include/rolt_rpc_msg.h
+  802  cd casa/build/rolt-cavm/
+  803  ls -l
+  804  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-36.gz -f
+  805  make
+  806  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-37.gz nroot@172.0.1.13:/fdsk
+  807  vi /home/zzx/.ssh/known_hosts
+  808  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-37.gz nroot@172.0.1.13:/fdsk
+  809  cd ../../..
+  810  accurev stat -m
+  811  accurev diff -b ./dcts/dpoe/rolt/rolt_cfg.c
+  812  accurev diff -b ./casa/mgmt/CLI/rolt_callback.c
+  813  cd ..
+  814  ls
+  815  cd zzx_ROLT/
+  816  ls -l
+  817  cd casa/build/
+  818  ls 
+  819  cd cots/
+  820  ls
+  821  cd packages/
+  822  ls
+  823  pwd
+  824  cd ..
+  825  cd ../..
+  826  cd ..
+  827  make roltcp
+  828  cd casa/build/rolt-cavm/
+  829  ls -l
+  830  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-37.gz -f
+  831  make
+  832  ls -l
+  833  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-38.gz nroot@172.0.1.13:/fdsk
+  834  vi /home/zzx/.ssh/known_hosts
+  835  scp roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-38.gz nroot@172.0.1.13:/fdsk
+  836  cd ../../..
+  837  make roltcp
+  838  c
+  839  accurev stat -m
+  840  accurev diff -b ./dcts/dpoe/rolt/rpc/include/rolt_rpc_msg.h
+  841  accurev diff -b ./dcts/dpoe/rolt/rolt_monitor.c
+  842  accurev diff -b ./dcts/dpoe/rolt/rolt_cfg.c
+  843  accurev diff -b ./casa/mgmt/config/cfg_callbacks/rolt_cfg.c
+  844  accurev diff -b ./casa/mgmt/CLI/rolt_callback.c
+  845  accurev stat -m
+  846  accurev stat -k
+  847  accurev keep ./dcts/dpoe/rolt/rpc/client/rolt_rpc_xdr.c ./dcts/dpoe/rolt/rpc/include/rolt_rpc_msg.h ./dcts/dpoe/rolt/rolt_monitor.c ./dcts/dpoe/rolt/rolt_cfg.c ./casa/mgmt/config/cfg_callbacks/rolt_cfg.c ./casa/mgmt/CLI/rolt_callback.c ./casa/mgmt/CLI/cmd/rolt.cmd -c "Bug 116288 - B@CASA ROLT: (Rel 11.0.0_build77ba) show remote-olt issue"
+  848  accurev stat -k
+  849  accurev cpkadd -k -I 116288
+  850  vi ./casa/mgmt/CLI/cmd/rolt.cmd
+  851  accurev stat -k
+  852  accurev stat -m
+  853  accurev keep ./casa/mgmt/CLI/cmd/rolt.cmd -c "Bug 116288 - B@CASA ROLT: (Rel 11.0.0_build77ba) show remote-olt issue"
+  854  accurev cpkadd ./casa/mgmt/CLI/cmd/rolt.cmd -I 116288
+  855  accurev stat -m
+  856  accurev stat -k
+  857  grep -rn "LCSW_DECODE_U32"
+  858  cd casa/
+  859  grep -rn "LCSW_DECODE_U32"
+  860  cd ..
+  861  grep -rn "LCSW_DECODE_U32"
+  862  make roltcp
+  863  vi casa/mgmt/CLI/cmd/rolt.cmd 
+  864  make roltcp
+  865  accurev stat -m
+  866  accurev stat -k
+  867  accurev diff -b ./casa/mgmt/config/cfg_callbacks/rolt_cfg.c
+  868  accurev diff -b ./casa/mgmt/CLI/rolt_callback.c
+  869  accurev stat -m
+  870  accurev purge ./casa/mgmt/config/cfg_callbacks/rolt_cfg.c
+  871  accurev purge ./casa/mgmt/CLI/rolt_callback.c 
+  872  accurev stat -m
+  873  accurev stat -k
+  874  accurev update
+  875  accurev purge ./casa/mgmt/config/cfg_callbacks/rolt_cfg.c ./casa/mgmt/CLI/rolt_callback.c
+  876  accurev update
+  877  accurev stat -m
+  878  accurev stat -k
+  879  accurev keep ./casa/mgmt/config/cfg_callbacks/rolt_cfg.c ./casa/mgmt/CLI/rolt_callback.c  ./casa/mgmt/CLI/cmd/rolt.cmd -c "Bug 116288 - B@CASA ROLT: (Rel 11.0.0_build77ba) show remote-olt issue"
+  880  accurev cpkadd ./casa/mgmt/config/cfg_callbacks/rolt_cfg.c ./casa/mgmt/CLI/rolt_callback.c ./casa/mgmt/CLI/cmd/rolt.cmd -I 116288
+  881  make roltcp
+  882  accurev stat -m
+  883  accurev keep ./casa/mgmt/config/cfg_callbacks/rolt_cfg.c ./casa/mgmt/CLI/rolt_callback.c -c "Bug 116288 - B@CASA ROLT: (Rel 11.0.0_build77ba) show remote-olt issue"
+  884  accurev cpkadd ./casa/mgmt/config/cfg_callbacks/rolt_cfg.c ./casa/mgmt/CLI/rolt_callback.c -I 116288
+  885  accurev stat -k
+  886  accurev promote ./casa/mgmt/CLI/cmd/rolt.cmd ./casa/mgmt/CLI/rolt_callback.c ./casa/mgmt/config/cfg_callbacks/rolt_cfg.c ./dcts/dpoe/rolt/rolt_cfg.c ./dcts/dpoe/rolt/rolt_monitor.c ./dcts/dpoe/rolt/rpc/client/rolt_rpc_xdr.c ./dcts/dpoe/rolt/rpc/include/rolt_rpc_msg.h -c "Bug 116288 - B@CASA ROLT: (Rel 11.0.0_build77ba) show remote-olt issue" -I 116288
+  887  accurev stat -k
+  888  accurev stat -m
+  889  ls -l
+  890  ls
+  891  cd linux-x86_64/
+  892  ls 
+  893  cd ..
+  894  find -name "list.h"
+  895  ls -l
+  896  cd kernels/
+  897  ls- 
+  898  ls 
+  899  vi amd64/linux-headers-4.4.0-31/include/linux/list.h
+  900  vi amd64/linux-headers-4.4.0-31/include/linux/types.h 
+  901  cd ..
+  902  ls
+  903  accurev annotate dcts/dpoe/rpc_server/pon_rpc_server.c | less
+  904  accurev hist dcts/dpoe/rpc_server/pon_rpc_server.c -u jiangbo -k promote
+  905  cd ../../vob/zzx/zzx_dpoe_8241_dev1/
+  906  ls
+  907  cd ..
+  908  ls
+  909  cd ..
+  910  ls
+  911  cd vob/
+  912  ls
+  913  cd zzx/
+  914  ls
+  915  cd zzx_ROLT/
+  916  pwd
+  917  accurev login
+  918  accurev stat -m
+  919  accurev stat -k
+  920  accurev update
+  921  accurev login
+  922  accurev update
+  923  make roltcp
+  924  ls
+  925  cd casa/build/rolt-cavm/
+  926  ls -l
+  927  rm roltnode-11.0.0.0-7791.zzx_ROLT_zhangzixiong-38.gz 
+  928  ls 
+  929  make
+  930  ls -l
+  931  ls
+  932  cd ../../vob/zzx/zzx_ROLT
+  933  pwd
+  934  ls
+  935  cd casa/mgmt/CLI/cmd
+  936  grep -rn "shutdown"
+  937  cd ../../..
+  938  ls
+  939  grep -rn "OltmgrInfoGetRsp"
+  940  cd ..
+  941  grep -rn "OltmgrInfoGetRsp"
+  942  ping 172.0.1.13
+  943  ipconfig
+  944  ipconfig eth0
+  945  ifconfig eth0
+  946  cd casa/build/rolt-cavm/
+  947  ls -l
+  948  copy roltnode-11.0.0.0-77c9.zzx_ROLT_zhangzixiong-39.gz /tftpboot/
+  949  copy roltnode-11.0.0.0-77c9.zzx_ROLT_zhangzixiong-39.gz /tftpboot
+  950  cp roltnode-11.0.0.0-77c9.zzx_ROLT_zhangzixiong-39.gz /tftpboot
+  951  cd /tftpboot/
+  952  ls- l
+  953  ls -l
+  954  cd ..
+  955  ls
+  956  cd vob/
+  957  ls
+  958  cd zzx/
+  959  ls
+  960  cd zzx_ROLT/
+  961  ls -l
+  962  cd casa/build/rolt-cavm/
+  963  ls- l
+  964  ls -l
+  965  scp roltnode-11.0.0.0-77c9.zzx_ROLT_zhangzixiong-39.gz nroot@172.0.1.13:/fdsk
+  966  vi /home/zzx/.ssh/known_hosts
+  967  scp roltnode-11.0.0.0-77c9.zzx_ROLT_zhangzixiong-39.gz nroot@172.0.1.13:/fdsk
+  968  cd ../../..
+  969  cd debug/
+  970  pwd
+  971  ls -l
+  972  ls
+  973  cd ..
+  974  grep -rn "bcm_user"
+  975  find -name "bcm_user_appl"
+  976  cd debug/
+  977  ls
+  978  gdbcav core.rolt-bcm_user_appl-324-6-1564472059 -c ../sdk/systems/linux/user/dpoe_arm64/bcm.user.dbg
+  979  gdbcav -c core.rolt-bcm_user_appl-324-6-1564472059 ../sdk/systems/linux/user/dpoe_arm64/bcm.user.dbg
+  980  cd ..
+  981  c
+  982  ls
+  983  cd casa/build/rolt-cavm/
+  984  ls -l
+  985  make 
+  986  make
+  987  cd ..
+  988  ls
+  989  cd ..
+  990  make roltcp
+  991  ls
+  992  cd casa/build/rolt-cavm/
+  993  ls 
+  994  scp roltnode-11.0.0.0-77c9.zzx_ROLT-40.gz nroot@172.0.1.13:/fdsk
+  995  vi /home/zzx/.ssh/known_hosts
+  996  scp roltnode-11.0.0.0-77c9.zzx_ROLT-40.gz nroot@172.0.1.13:/fdsk
+  997  cd /tftpboot/
+  998  ls -
+  999  ls
+ 1000  cd ../../vob/zzx/zzx_ROLT
+ 1001  cd casa/build/rolt-cavm/
+ 1002  ls -l
+ 1003  make
+ 1004  ls -l
+ 1005  scp roltnode-11.0.0.0-77c9.zzx_ROLT-41.gz nroot@172.0.1.13:/fdsk
+ 1006  vi /home/zzx/.ssh/known_hosts
+ 1007  scp roltnode-11.0.0.0-77c9.zzx_ROLT-41.gz nroot@172.0.1.13:/fdsk
+ 1008  cd ../../..
+ 1009  make roltcp
+ 1010  ls
+ 1011  accurev stat -k
+ 1012  accurev login
+ 1013  accurev stat -k
+ 1014  accurev stat -m
+ 1015  cd debug/
+ 1016  pwd
+ 1017  ls
+ 1018  rm core.rolt-bcm_user_appl-324-6-1564472059
+ 1019  ls
+ 1020  gdbcav core.rolt-bcm_user_appl-323-6-1564558219
+ 1021  gdb core.rolt-bcm_user_appl-323-6-1564558219
+ 1022  cd ..
+ 1023  find -name "bcm_user"
+ 1024  pwd
+ 1025  cd sdk/
+ 1026  ls
+ 1027  find -name bcm_user.d*
+ 1028  find -name bcm_user* 
+ 1029  find . -name bcm_user* 
+ 1030  cd ..
+ 1031  ls
+ 1032  find . -name bcm_user* 
+ 1033  telnet cyh@172.0.1.147
+ 1034  SSH cyh@172.0.1.147
+ 1035  ssh cyh@172.0.1.147
+ 1036  find -name bcm.user.dbg
+ 1037  cp ./sdk/build/linux/user/rolt_arm64/bcm.user.dbg debug/
+ 1038  cd debug/
+ 1039  ls
+ 1040  gdbcav bcm.user.dbg -c core.rolt-bcm_user_appl-323-6-1564558219 
+ 1041  cd ..
+ 1042  make roltcp
+ 1043  telnet 172.0.1.13
+ 1044  ping 172.0.1.13
+ 1045  cd casa/build/rolt-cavm/
+ 1046  ls -l
+ 1047  scp roltnode-11.0.0.0-77c9.zzx_ROLT-41.gz nroot@172.0.1.235:/fdsk
+ 1048  cd ../../..
+ 1049  ls -l
+ 1050  make roltcp
+ 1051  ls
+ 1052  vi sshd_config
+ 1053  cat sshd_config 
+ 1054  ls
+ 1055  mv sshd_config sshd_config1
+ 1056  ls 
+ 1057  scp sshd_config1 nroot@172.0.1.13:/usr/local/etc
+ 1058  vi /home/zzx/.ssh/known_hosts
+ 1059  scp sshd_config1 nroot@172.0.1.13:/usr/local/etc
+ 1060  c
+ 1061  ls
+ 1062  pwd
+ 1063  cd casa/mgmt/rpc/lc_cfg/server/
+ 1064  ls
+ 1065  vi lc_cfg_server.c 
+ 1066  cd ../../..
+ 1067  cd ..
+ 1068  ls 
+ 1069  cd casa/build/rolt-cavm/
+ 1070  make
+ 1071  ls -l
+ 1072  scp roltnode-11.0.0.0-77c9.zzx_ROLT_zhangzixiong-42.gz nroot@172.0.1.13:/fdsk
+ 1073  vi /home/zzx/.ssh/known_hosts
+ 1074  scp roltnode-11.0.0.0-77c9.zzx_ROLT_zhangzixiong-42.gz nroot@172.0.1.13:/fdsk
+ 1075  ping 172.0.1.13
+ 1076  ping 172.0.1.15
+ 1077  ping 172.0.1.235
+ 1078  ping 172.0.1.15
+ 1079  ping 172.0.1.13
+ 1080  ping 172.0.1.15
+ 1081  ls -l
+ 1082  scp roltnode-11.0.0.0-77c9.zzx_ROLT_zhangzixiong-42.gz nroot@172.0.1.235:/fdsk
+ 1083  vi /home/zzx/.ssh/known_hosts
+ 1084  scp roltnode-11.0.0.0-77c9.zzx_ROLT_zhangzixiong-42.gz nroot@172.0.1.235:/fdsk
+ 1085  ls -l
+ 1086  make
+ 1087  ls -l
+ 1088  scp roltnode-11.0.0.0-77c9.zzx_ROLT-43.gz nroot@172.0.1.235:/fdsk
+ 1089  vi /home/zzx/.ssh/known_hosts
+ 1090  scp roltnode-11.0.0.0-77c9.zzx_ROLT-43.gz nroot@172.0.1.235:/fdsk
+ 1091  scp roltnode-11.0.0.0-77c9.zzx_ROLT-43.gz nroot@172.0.1.13:/fdsk
+ 1092  cd ../../..
+ 1093  make roltcp
+ 1094  cd casa/build/rolt-cavm/
+ 1095  make
+ 1096  ls -l
+ 1097  scp roltnode-11.0.0.0-77c9.zzx_ROLT-44.gz nroot@172.0.1.13:/fdsk
+ 1098  scp roltnode-11.0.0.0-77c9.zzx_ROLT-44.gz nroot@172.0.1.235:/fdsk
+ 1099  vi /home/zzx/.ssh/known_hosts
+ 1100  scp roltnode-11.0.0.0-77c9.zzx_ROLT-44.gz nroot@172.0.1.235:/fdsk
+ 1101  scp roltnode-11.0.0.0-77c9.zzx_ROLT-44.gz nroot@172.0.1.13:/fdsk
+ 1102  cd ../../..
+ 1103  ls -l
+ 1104  make roltcp
+ 1105  cd casa/build/rolt-cavm/
+ 1106  ls -l
+ 1107  cp roltnode-11.0.0.0-77c9.zzx_ROLT-44.gz /tftpboot
+ 1108  ls -l
+ 1109  make
+ 1110  ls -l
+ 1111  scp roltnode-11.0.0.0-77c9.zzx_ROLT-45.gz nroot@172.0.1.235:/fdsk
+ 1112  vi /home/zzx/.ssh/known_hosts
+ 1113  scp roltnode-11.0.0.0-77c9.zzx_ROLT-45.gz nroot@172.0.1.235:/fdsk
+ 1114  scp roltnode-11.0.0.0-77c9.zzx_ROLT-45.gz nroot@172.0.1.13:/fdsk
+ 1115  cd ../..
+ 1116  grep -rn "NOT_GET_FORM_VSC8258"
+ 1117  greph -rn "NOT_GET_FORM_VSC8258"
+ 1118  grep -rn "NOT_GET_FORM_VSC8258"
+ 1119  vi arch/board/common/lc/lib/lc_switch_cmd.c =4337
+ 1120  vi arch/board/common/lc/lib/lc_switch_cmd.c +4337
+ 1121  cd build/rolt-cavm/
+ 1122  make
+ 1123  ls -l
+ 1124  scp roltnode-11.0.0.0-77c9.zzx_ROLT-46.gz nroot@172.0.1.13:/fdsk
+ 1125  vi /home/zzx/.ssh/known_hosts
+ 1126  scp roltnode-11.0.0.0-77c9.zzx_ROLT-46.gz nroot@172.0.1.13:/fdsk
+ 1127  scp roltnode-11.0.0.0-77c9.zzx_ROLT-46.gz nroot@172.0.1.235:/fdsk
+ 1128  cd ../../..
+ 1129  ls -l
+ 1130  grep -rn "NOT_GET_FORM_VSC8258"
+ 1131  vi sdk/src/customer_rolt/lc_dpoe_utils.c +1972
+ 1132  vi casa/arch/board/common/lc/lib/lc_switch_cmd.c +4337
+ 1133  cd casa/build/rolt-cavm/
+ 1134  ls -l
+ 1135  make
+ 1136  ls -l
+ 1137  scp roltnode-11.0.0.0-77c9.zzx_ROLT-47.gz nroot@172.0.1.13:/fdsk
+ 1138  vi /home/zzx/.ssh/known_hosts
+ 1139  scp roltnode-11.0.0.0-77c9.zzx_ROLT-47.gz nroot@172.0.1.13:/fdsk
+ 1140  scp roltnode-11.0.0.0-77c9.zzx_ROLT-47.gz nroot@172.0.1.235:/fdsk
+ 1141  cd ../../..
+ 1142  make roltcp
+ 1143  cd casa/build/rolt-cavm/
+ 1144  ls -l
+ 1145  cp roltnode-11.0.0.0-77c9.zzx_ROLT-47.gz /tftpboot/
+ 1146  history
+ 1147  cd ../../..
+ 1148  accurev login
+ 1149  accurev stat -m
+ 1150  accurev diff  -b ./casa/mgmt/config/cfg_callbacks/rolt_cfg.c
+ 1151  accurev stat -m
+ 1152  accurev diff -b ./dcts/dpoe/oltmgr/oltmgr_node.c
+ 1153  accurev stat -m
+ 1154  accurev purge ./dcts/dpoe/oltmgr/oltmgr_daemon.c
+ 1155  accurev diff -b ./casa/mgmt/config/cfg_callbacks/rolt_cfg.c
+ 1156  accurev purge ./casa/mgmt/config/cfg_callbacks/rolt_cfg.c
+ 1157  accurev update
+ 1158  accurev stat -m
+ 1159  accurev keep ./dcts/dpoe/oltmgr/oltmgr_node.c ./dcts/dpoe/oltmgr/oltmgr_daemon.c -c "Bug 116741 - B@CASA ROLT (Rel 11.0.0, Ver 0,build77c9) check the ROLT host entry in cp with some strangr log"
+ 1160  accure stat -k
+ 1161  accurev stat -k
+ 1162  accurev cpkadd ./dcts/dpoe/oltmgr/oltmgr_daemon.c ./dcts/dpoe/oltmgr/oltmgr_node.c -I 116741
+ 1163  cd casa/build/rolt-cavm/
+ 1164  make
+ 1165  cd ../../..
+ 1166  make roltcp
+ 1167  cd casa/build/rolt-cavm/
+ 1168  ls -l
+ 1169  scp roltnode-11.0.0.0-77f9.zzx_ROLT_zhangzixiong-48.gz nroot@172.0.1.13:/fdsk
+ 1170  vi /home/zzx/.ssh/known_hosts
+ 1171  scp roltnode-11.0.0.0-77f9.zzx_ROLT_zhangzixiong-48.gz nroot@172.0.1.13:/fdsk
+ 1172  cd ../../..
+ 1173  make roltcp
+ 1174  accurev stat -m
+ 1175  accurev stat -k
+ 1176  accurev keep ./dcts/dpoe/oltmgr/oltmgr_node.c -c "Bug 116741 - B@CASA ROLT (Rel 11.0.0, Ver 0,build77c9) check the ROLT host entry in cp with some strangr log"
+ 1177  accrev cpkadd ./dcts/dpoe/oltmgr/oltmgr_node.c -I 116741
+ 1178  accurev cpkadd ./dcts/dpoe/oltmgr/oltmgr_node.c -I 116741
+ 1179  accurev stat -k
+ 1180  accurev diff -b ./dcts/dpoe/oltmgr/oltmgr_node.c
+ 1181  accurev stat -k
+ 1182  accurev promote ./dcts/dpoe/oltmgr/oltmgr_daemon.c ./dcts/dpoe/oltmgr/oltmgr_node.c -c "Bug 116741 - B@CASA ROLT (Rel 11.0.0, Ver 0,build77c9) check the ROLT host entry in cp with some strangr log" -I 116741
+ 1183  accurev stat -k
+ 1184  accurev stat -m
+ 1185  ssh-keygen -t rsa -C "zhang_zx0130@163.com"
+ 1186  cd cd /home/
+ 1187  cd /home/
+ 1188  cd 
+ 1189  cd .ssh/
+ 1190  ls -
+ 1191  ls
+ 1192  cat id_rsa.pub 
+ 1193  cd /vob/zzx/
+ 1194  ls -l
+ 1195  git clone git@github.com:zhangzixiong/github_test.git
+ 1196  ls -l
+ 1197  ll
+ 1198  cd github_test/
+ 1199  ls
+ 1200  git branch test
+ 1201  git branch
+ 1202  ls
+ 1203  git checkout
+ 1204  git checkout test
+ 1205  git branch
+ 1206  ls
+ 1207  history
+ 1208  history > his
+ 1209  ls
+ 1210  cat his 
+ 1211  ls
+ 1212  git branch
+ 1213  git status
+ 1214  git add his 
+ 1215  git status
+ 1216  git commit -m "show history"
+ 1217  git config --global user.email "zhang_zx0130@163.com"
+ 1218  git config --global user.name "zhangzixiong"
+ 1219  git log
+ 1220  git commit -m "show history"
+ 1221  git remote
+ 1222  git remote -v
+ 1223  git checkout
+ 1224  git checkout master
+ 1225  ls
+ 1226  git checkout test
+ 1227  ls
+ 1228  git push 
+ 1229  git config --global push.default simple
+ 1230  git push 
+ 1231  git push --set-upstream origin test
+ 1232  git login
+ 1233  ping github.com
+ 1234  git checkout master
+ 1235  ls
+ 1236  git pull 
+ 1237  git merge test
+ 1238  git login
+ 1239  git log
+ 1240  git push 
+ 1241  git checkout
+ 1242  git checkout test
+ 1243  ls
+ 1244  git branch zzx
+ 1245  ls
+ 1246  git checkout zzx
+ 1247  ls
+ 1248  git branch
+ 1249  ls
+ 1250  ls -l /tftpboot > zzx
+ 1251  ls
+ 1252  cat zzx 
+ 1253  ls
+ 1254  git add zzx
+ 1255  git commit -m "node image"
+ 1256  git push 
+ 1257  git push --set-upstream origin zzx
+ 1258  git push origin zzx
+ 1259  git checkout test
+ 1260  git push origin test
+ 1261  ls
+ 1262  git branch
+ 1263  git push origin test
+ 1264  git pull
+ 1265  git pull origin test
+ 1266  git push origin test
+ 1267  git branch -r
+ 1268  git branch -r test
+ 1269  git branch -R test
+ 1270  git branch -d test
+ 1271  ls
+ 1272  git checkout zzx
+ 1273  git branch -d test
+ 1274  git branch test
+ 1275  git checkout test
+ 1276  ls
+ 1277  git push 
+ 1278  git push origin test
+ 1279  history > history
